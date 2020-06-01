@@ -1,0 +1,4 @@
+RANDOM_DELAY=@CRON_RANDOM_DELAY@
+# Generate a daily summary of process accounting at 23:53
+53 23 * * * @CRON_OWNER@ @SA_LIB_DIR@/sa2 -A
+
